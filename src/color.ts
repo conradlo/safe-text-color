@@ -13,7 +13,4 @@ const getLuma = (color: string) => {
 
 const isBrightColor = (color: string) => getLuma(color) > 0.5;
 
-const getSafeTextColor = (color: string) =>
-  isBrightColor(color) ? "#000000" : "#ffffff";
-
-export { getRGB, isBrightColor, getSafeTextColor };
+export { getRGB, isBrightColor };
