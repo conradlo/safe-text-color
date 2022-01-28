@@ -4,6 +4,7 @@
   "description": "calculate safe contrast text color from a given background color",
   "main": "dist/index.js",
   "scripts": {
+    "build": "tsc",
     "test": "jest"
   },
   "keywords": [
