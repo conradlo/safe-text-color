@@ -1,0 +1,16 @@
+{
+  "name": "safe-text-color",
+  "version": "0.0.1",
+  "description": "calculate safe contrast text color from a given background color",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "keywords": [
+    "color",
+    "text color",
+    "face color"
+  ],
+  "author": "Conrad Lo <email@conradlo.com> (https://github.com/conradlo)",
+  "license": "MIT"
+}
